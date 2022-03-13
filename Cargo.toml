@@ -6,17 +6,13 @@ license = "WTFPL"
 publish = false
 
 [dependencies]
+thiserror = "1.0.24"
 solana-program = "=1.9.4"
+borsh = "0.9.3"
+borsh-derive = "0.9.3"
 
 [features]
 test-bpf = []
-
-[dev-dependencies]
-assert_matches = "1.4.0"
-solana-program-test = "=1.9.4"
-solana-sdk = "=1.9.4"
-solana-validator = "=1.9.4"
-solana-logger = "=1.9.4"
 
 [lib]
 crate-type = ["cdylib", "lib"]
